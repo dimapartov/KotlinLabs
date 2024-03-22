@@ -6,5 +6,6 @@ fun main() {
     val start = minOf(firstNumber, secondNumber)
     val end = maxOf(firstNumber, secondNumber)
     val list = (start..end).toList()
-    println(list)
+    println(list.joinToString(separator = ", "))
 }
+//

@@ -3,7 +3,7 @@ package lab5
 import kotlin.math.abs
 
 fun main() {
-    println(roundNumber(1272))
+    println(roundNumber(-1272))
     println(roundNumber(123))
 }
 

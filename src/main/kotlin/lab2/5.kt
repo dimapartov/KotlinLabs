@@ -8,7 +8,12 @@ fun main() {
     val distinctNumbers = numbers.distinct().sorted()
     if (distinctNumbers.size == 3) {
         println(distinctNumbers[1])
+    } else if (distinctNumbers.size == 2) {
+        if (distinctNumbers[0] < distinctNumbers[1]) {
+            println(distinctNumbers[0])
+        }
     } else {
         println("Ошибка")
     }
 }
+//!!!!!
