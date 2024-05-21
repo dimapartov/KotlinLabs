@@ -7,7 +7,7 @@ fun main() {
 fun countWords(stringInput:String):Int {
     val words = stringInput.split(*arrayOf(" ", ",", ";", ".", "!", "?")).filter { it.isNotEmpty() }
 //    println(words)
-//    words = words.filter { it.isNotEmpty() }
+//    words = words.lab6.filter { it.isNotEmpty() }
 //    println(words)
     return words.size
 }
