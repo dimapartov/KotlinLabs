@@ -9,9 +9,7 @@ fun main() {
 fun chooseAction(action: Char): (Int, Int) -> Int {
     return when (action) {
         '+' -> { a, b -> a + b }
-        '-' -> { a, b -> a - b }
         '*' -> { a, b -> a * b }
-        '/' -> { a, b -> a / b }
         else -> throw Exception("Please provide correct action!");
     }
 }
